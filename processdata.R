@@ -10,7 +10,9 @@ zip.file<-"exdata-data-household_power_consumption.zip"
 data.file<-"household_power_consumption.txt"
 sql.query<-"SELECT * FROM powerdata WHERE Date in ('1/2/2007','2/2/2007')"
 
-#setwd("/Users/rthomas/Documents/Coursera/Exploratory Data Analysis/project")
+#wd.project<-"/Users/rthomas/Documents/Coursera/Exploratory Data Analysis/project"
+wd.project<-"C:/Users/thomary/Documents/coursera/Exploratory Data Analysis/project1"
+setwd(wd.project)
 
 ## END CONFIG
 
